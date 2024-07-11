@@ -1,4 +1,4 @@
-import React from "react";
+
 import { businessDetail } from "./data";
 
 const TextSession = () => {

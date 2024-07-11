@@ -1,8 +1,9 @@
-import React from "react";
-import { Partner_Portals } from "./data";
+
+import { Partner_Portals } from "../../data";
 const PartenerPortals = () => {
   return (
     <div className="w-full px-2 mx-auto">
+      {/* w-full px-2 mx-auto */}
       <h1>OUR PATERNER PORTALS</h1>
       <div className="pt-2">
         <hr className="w-1/2 bg-slate-900 h-[3px]" />
