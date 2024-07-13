@@ -1,5 +1,5 @@
 import React from "react";
-import { businessDetail } from "./data";
+import { businessDetail } from "../data.js";
 
 const AboutBussiness = () => {
   return (

@@ -70,6 +70,34 @@ const contect_Address = [
     id: 7,
     poster: "./images/bangalore.gif",
   },
+  {
+    id: 8,
+    poster: "./images/belgaum.gif",
+  },
+  {
+    id: 9,
+    poster: "./images/hubli.gif",
+  },
+  {
+    id: 10,
+    poster: "./images/mysore.gif",
+  },
+  {
+    id: 11,
+    poster: "./images/pune.gif",
+  },
+  {
+    id: 12,
+    poster: "./images/sangli.gif",
+  },
+  {
+    id: 13,
+    poster: "./images/mumbai.gif",
+  },
+  {
+    id: 14,
+    poster: "./images/bangalore.gif",
+  },
 ];
 
 const Quick_Links = [
