@@ -12,7 +12,7 @@ import WebDreams from "./ui/WebDreams"
 function PaymentsAwards() {
   return (
     <>
-        <div className="flex flex-col md:grid md:grid-cols-[25%_75%]">
+        <div className="flex flex-col md:grid md:grid-cols-[25%_75%] mt-5">
             <section>
               <ClickToPay className=""/>
               {/* 1 */}
