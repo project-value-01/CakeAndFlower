@@ -50,7 +50,7 @@ export const Header = () => {
                 <p className="flex justify-center items-center gap-1 font-semibold text-sm"><MailIcon height={16}/>Email : project-value@gmail.com</p>
             </div>
         </div>
-        <nav className="bg-[#1e7968] w-full px-4 flex gap-2 md:justify-center items-center text-white sticky top-0">            
+        <nav className="bg-[#1e7968] w-full px-4 flex gap-2 md:justify-center items-center text-white sticky top-0 z-50">            
             <DropdownMenu>
             <DropdownMenuTrigger asChild className="my-3">
                 <MenuIcon height={26} className='cursor-pointer active:scale-125 md:hidden'/>
