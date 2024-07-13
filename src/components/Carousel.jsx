@@ -24,7 +24,7 @@ const Carousel = ({ images }) => {
   }, [currentIndex]);
 
   return (
-    <div className="container mx-auto mt-10 relative overflow-hidden">
+    <div className="mt-10 relative overflow-hidden">
       <div ref={carouselRef} className="flex transition-transform duration-500">
         {images.map((image, index) => (
           <div key={index} className="w-full flex-shrink-0">
