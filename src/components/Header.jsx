@@ -39,17 +39,18 @@ export const Header = () => {
             </div>
         </div>
         <div className="px-4 md:grid md:grid-cols-[1fr,_1fr,_1fr] md:items-center md:gap-3 md:ps-20 lg:ps-40">
-            <img src="/clickhubli_logo.png" alt="click hubli logo"
+            {/* <img src="/clickhubli_logo.png" alt="click hubli logo"
                 className="w-[18rem] mx-auto py-3.5 md:w-[20rem]"
-            />
+            /> */}
+            <h2 className="text-[2.5rem] md:text-[3rem] mb-2 text-white italic">Project Value</h2>
             <h1 className="text-[#118C6F] text-lg leading-5 my-2.5 md:hidden">Send Flowers, Cakes, Roses, Birthday Gifts, Anniversary Gifts All over India</h1>
             <button className="bg-[#f0ad4e] border border-[#eea236] hover:bg-[#dc5e1f] px-3 py-1.5 text-white text-sm font-bold place-self-end self-baseline lg:self-center">Track Order</button>
             <div className='mt-6 pb-2.5 self-baseline lg:self-center place-self-end'>
-                <p className="flex justify-center items-center gap-1 font-semibold text-sm"><SmartphoneIcon height={16}/>Call Us : +91-84978-08999</p>
-                <p className="flex justify-center items-center gap-1 font-semibold text-sm"><MailIcon height={16}/>Email : clickhubli@gmail.com</p>
+                <p className="flex justify-center items-center gap-1 font-semibold text-sm"><SmartphoneIcon height={16}/>Call Us : +91-*****-*****</p>
+                <p className="flex justify-center items-center gap-1 font-semibold text-sm"><MailIcon height={16}/>Email : project-value@gmail.com</p>
             </div>
         </div>
-        <nav className="bg-[#1e7968] w-full px-4 flex gap-2 md:justify-center items-center text-white sticky">            
+        <nav className="bg-[#1e7968] w-full px-4 flex gap-2 md:justify-center items-center text-white sticky top-0">            
             <DropdownMenu>
             <DropdownMenuTrigger asChild className="my-3">
                 <MenuIcon height={26} className='cursor-pointer active:scale-125 md:hidden'/>
@@ -110,14 +111,14 @@ export const Header = () => {
             <span className="md:hidden">MENU</span>
 
             <ul className="flex text-[0.7rem] my-1 lg:text-[0.9rem] px-1 h-full max-[767px]:hidden">
-                <li className="uppercase pr-2 flex items-center">home</li>
-                <li className="uppercase border-l border-blue-600 px-2 flex items-center">about us</li>
+                <li className="uppercase pr-2 flex items-center">nav1</li>
+                <li className="uppercase border-l border-blue-600 px-2 flex items-center">nav2</li>
                 <li className="uppercase border-l border-blue-600">
                     <NavigationMenu>
                         <NavigationMenuList>
                             <NavigationMenuItem>
                                 <NavigationMenuTrigger className='px-3 uppercase'>
-                                    Valentines Day
+                                    nav3
                                 </NavigationMenuTrigger>
                                 <NavigationMenuContent>
                                         <ul className="w-[15rem] py-2">
@@ -138,7 +139,7 @@ export const Header = () => {
                         <NavigationMenuList>
                             <NavigationMenuItem>
                                 <NavigationMenuTrigger className='px-3 uppercase'>
-                                    shop by occasion
+                                    nav4
                                 </NavigationMenuTrigger>
                                 <NavigationMenuContent>
                                     <div className="w-[37rem] lg:w-[53.3rem] p-2 lg:pb-10 grid grid-cols-[65%,_35%] lg:grid-cols-[70%,_30%]">
@@ -190,13 +191,13 @@ export const Header = () => {
                         </NavigationMenuList>
                     </NavigationMenu>
                 </li>
-                <li className="uppercase border-l border-blue-600 px-3 flex items-center">products</li>
+                <li className="uppercase border-l border-blue-600 px-3 flex items-center">nav5</li>
                 <li className="uppercase border-l border-blue-600">
                 <NavigationMenu>
                         <NavigationMenuList>
                             <NavigationMenuItem>
                                 <NavigationMenuTrigger className='px-3 uppercase'>
-                                shop by relation
+                                nav6
                                 </NavigationMenuTrigger>
                                 <NavigationMenuContent>
                                         <ul className="w-[10rem] py-3">
@@ -212,9 +213,9 @@ export const Header = () => {
                         </NavigationMenuList>
                     </NavigationMenu>
                 </li>
-                <li className="uppercase border-l border-blue-600 flex px-3 items-center">design sarees</li>
-                <li className="uppercase border-l border-blue-600 px-2 flex items-center">delivery cities</li>
-                <li className="uppercase border-l border-blue-600 pl-3 flex items-center">contact</li>
+                <li className="uppercase border-l border-blue-600 flex px-3 items-center">nav7</li>
+                <li className="uppercase border-l border-blue-600 px-2 flex items-center">nav8</li>
+                <li className="uppercase border-l border-blue-600 pl-3 flex items-center">nav9</li>
             </ul>
         </nav>
     </header>
