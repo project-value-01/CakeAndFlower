@@ -10,13 +10,12 @@ const PartenerPortals = () => {
       </div>
 
       <div className="grid place-items-center grid-cols-2 md:grid-cols-3 gap-2 mt-4 py-7">
-        {Partner_Portals.map((partner,index) => (
+        {Partner_Portals.map((partner) => (
           <div
             key={partner.id}
-            className="border-[1px] w-full cursor-pointer bg-gray-300 animate-pulse flex-1 border-gray-400 overflow-hidden m-[1px] hover:border-gray-600 hover:scale-95 transition-all"
+            className=""
           >
-            <div className="min-h-24 min-w-40 grid place-items-center text-[18px] capitalize">partner-{index+1}</div>
-            {/* <img src={partner.poster} className="min-w-[150px]" /> */}
+             <img src={partner.poster} className="h-[8rem] w-[16rem]" />
           </div>
         ))}
       </div>

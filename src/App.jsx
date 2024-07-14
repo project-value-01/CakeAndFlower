@@ -11,11 +11,7 @@ import ComboPackList from "./components/ComboPackList";
 import PaymentsAwards from "./components/PaymentsAwards";
 
 function App() {
-  const images = [
-    "https://via.placeholder.com/800x400?text=Image+1",
-    "https://via.placeholder.com/800x400?text=Image+2",
-    "https://via.placeholder.com/800x400?text=Image+3",
-  ];
+  const images = ["/Cake1.jpg","/Cake2.jpg","/Cake3.jpg"];
 
   return (
     <>

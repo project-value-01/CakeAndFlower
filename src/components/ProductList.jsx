@@ -2,25 +2,25 @@ import ProductCard from './ProductCard';
 
 const products = [
   {
-    image: 'https://via.placeholder.com/200x200?text=Product+1',
+    image: '/Flower1.jpg',
     title: '10 Mix Rose',
     price: 'Rs.799',
     buttonLabel: 'Buy Now',
   },
   {
-    image: 'https://via.placeholder.com/200x200?text=Product+2',
+    image: '/Flower2.jpg',
     title: '12 Exotic Gerberas in a Vase',
     price: 'Rs.999',
     buttonLabel: 'Buy Now',
   },
   {
-    image: 'https://via.placeholder.com/200x200?text=Product+3',
+    image: '/Flower3.jpg',
     title: '12 Red Rose Basket Arrangement',
     price: 'Rs.999',
     buttonLabel: 'Buy Now',
   },
   {
-    image: 'https://via.placeholder.com/200x200?text=Product+4',
+    image: '/Flower4.jpg',
     title: '12 Pink & White Gerberas',
     price: 'Rs.999',
     buttonLabel: 'Buy Now',

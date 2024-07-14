@@ -28,7 +28,7 @@ const Carousel = ({ images }) => {
       <div ref={carouselRef} className="flex transition-transform duration-500">
         {images.map((image, index) => (
           <div key={index} className="w-full flex-shrink-0">
-            <img src={image} alt={`Slide ${index + 1}`} className="w-full" />
+            <img src={image} alt={`Slide ${index + 1}`} className="w-[70rem] md:h-[40rem] h-[20rem]" />
           </div>
         ))}
       </div>

@@ -2,25 +2,25 @@ import ProductCard from './ProductCard';
 
 const products = [
   {
-    image: 'https://via.placeholder.com/200x200?text=item+1',
+    image: '/Combo1.webp',
     title: 'Cute Choclate Love',
     price: 'Rs.1699',
     buttonLabel: 'Buy Now',
   },
   {
-    image: 'https://via.placeholder.com/200x200?text=item+1',
+    image: '/Combo2.webp',
     title: 'Elegant Ivory',
     price: 'Rs.1599',
     buttonLabel: 'Buy Now',
   },
   {
-    image: 'https://via.placeholder.com/200x200?text=item+1',
+    image: '/Combo3.webp',
     title: 'Beautiful Rose Basket',
     price: 'Rs.599',
     buttonLabel: 'Buy Now',
   },
   {
-    image: 'https://via.placeholder.com/200x200?text=item+1',
+    image: '/Combo4.webp',
     title: 'Combo of Gerberas',
     price: 'Rs.1699',
     buttonLabel: 'Buy Now',
@@ -35,7 +35,7 @@ const ComboPackList = () => {
         {products.map((product, index) => (
           <ProductCard
             key={index}
-            
+            image={product.image}
             title={product.title}
             price={product.price}
             buttonLabel={product.buttonLabel}
