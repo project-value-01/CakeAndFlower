@@ -2,25 +2,25 @@ import ProductCard from './ProductCard';
 
 const products = [
   {
-    image: 'https://via.placeholder.com/200x200?text=Cake+1',
+    image: '/Cake4.jpg',
     title: 'Half Kg Black Forest Cake',
     price: 'Rs.599',
     buttonLabel: 'Buy Now',
   },
   {
-    image: 'https://via.placeholder.com/200x200?text=Cake+2',
+    image: '/Cake5.jpg',
     title: '1/2 Kg Pineapple Cake',
     price: 'Rs.599',
     buttonLabel: 'Buy Now',
   },
   {
-    image: 'https://via.placeholder.com/200x200?text=Cake+3',
+    image: '/Cake6.jpg',
     title: '1/2 Kg Pineapple Cake',
     price: 'Rs.599',
     buttonLabel: 'Buy Now',
   },
   {
-    image: 'https://via.placeholder.com/200x200?text=Cake+4',
+    image: '/Cake7.jpg',
     title: 'Photo Cake (1.5 Kg)',
     price: 'Rs.1699',
     buttonLabel: 'Buy Now',

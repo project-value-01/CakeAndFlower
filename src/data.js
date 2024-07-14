@@ -1,42 +1,39 @@
-let heading = [];
-let data = [];
-
 // Our Partner Portals
 
 const Partner_Portals = [
   {
     id: 1,
-    poster: "./images/poster (1).gif",
+    poster: "/Partner1.jpg",
     link: "#",
   },
   {
     id: 2,
-    poster: "./images/poster (2).gif",
+    poster: "/Partner2.jpg",
     link: "#",
   },
   {
     id: 3,
-    poster: "./images/poster (3).gif",
+    poster: "/Partner3.jpg",
     link: "#",
   },
   {
     id: 4,
-    poster: "./images/poster (1).gif",
+    poster: "/Partner4.jpg",
     link: "#",
   },
   {
     id: 5,
-    poster: "./images/poster (2).gif",
+    poster: "/Partner5.jpg",
     link: "#",
   },
   {
     id: 6,
-    poster: "./images/poster (3).gif",
+    poster: "/Partner6.jpg",
     link: "#",
   },
   {
     id: 7,
-    poster: "./images/poster (1).gif",
+    poster: "/Partner7.jpg",
     link: "#",
   },
 ];
@@ -44,60 +41,32 @@ const Partner_Portals = [
 const contect_Address = [
   {
     id: 1,
-    poster: "./images/belgaum.gif",
+    poster: "/Market1.jpg",
   },
   {
     id: 2,
-    poster: "./images/hubli.gif",
+    poster: "/Market2.jpg",
   },
   {
     id: 3,
-    poster: "./images/mysore.gif",
+    poster: "/Market3.jpg",
   },
   {
     id: 4,
-    poster: "./images/pune.gif",
+    poster: "/Market4.jpg",
   },
   {
     id: 5,
-    poster: "./images/sangli.gif",
+    poster: "/Market5.jpg",
   },
   {
     id: 6,
-    poster: "./images/mumbai.gif",
+    poster: "/Market6.jpg",
   },
   {
     id: 7,
-    poster: "./images/bangalore.gif",
-  },
-  {
-    id: 8,
-    poster: "./images/belgaum.gif",
-  },
-  {
-    id: 9,
-    poster: "./images/hubli.gif",
-  },
-  {
-    id: 10,
-    poster: "./images/mysore.gif",
-  },
-  {
-    id: 11,
-    poster: "./images/pune.gif",
-  },
-  {
-    id: 12,
-    poster: "./images/sangli.gif",
-  },
-  {
-    id: 13,
-    poster: "./images/mumbai.gif",
-  },
-  {
-    id: 14,
-    poster: "./images/bangalore.gif",
-  },
+    poster: "/Market7.jpg",
+  }
 ];
 
 const Quick_Links = [

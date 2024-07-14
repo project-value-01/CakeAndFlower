@@ -9,15 +9,11 @@ const ContactAddress = () => {
         <hr className="w-full bg-slate-800 h-[1px]" />
       </div>
       <div className="grid place-items-center grid-cols-2 md:grid-cols-3 gap-2 mt-4 py-7">
-        {contect_Address.map((address, index) => (
-          <div
-            key={address.id}
-            className="border-[1px] cursor-pointer w-full bg-gray-300 animate-pulse flex-1 overflow-hidden m-[1px] hover:border-gray-600 hover:scale-95 transition-all"
-          >
-            <div className="min-h-24 min-w-40 grid place-items-center text-[18px] capitalize">
-              location-{index + 1}
-            </div>
-          </div>
+        {contect_Address.map((address) => (
+            <img src={address.poster} alt="" key={address.id} className="h-[8rem] w-full grid place-items-center"/>
+            // <div key={index} className="min-h-24 min-w-40 grid place-items-center text-[18px] capitalize">
+            //   
+            // </div>
         ))}
       </div>
     </div>
