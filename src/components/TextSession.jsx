@@ -1,5 +1,5 @@
 
-import { businessDetail } from "./data";
+import { businessDetail } from "../data";
 
 const TextSession = () => {
   return (

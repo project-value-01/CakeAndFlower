@@ -1,4 +1,3 @@
-
 import { Partner_Portals } from "../../data";
 const PartenerPortals = () => {
   return (
@@ -9,17 +8,17 @@ const PartenerPortals = () => {
         <hr className="w-1/2 bg-slate-900 h-[3px]" />
         <hr className="w-full bg-slate-800 h-[1px]" />
       </div>
-      <div>
-        <div className="grid place-items-center grid-cols-2 md:grid-cols-3 gap-2 mt-4 py-7">
-          {Partner_Portals.map((partner) => (
-            <div
-              key={partner.id}
-              className="border-[1px] border-amber-200 overflow-hidden m-[1px] hover:border-orange-600 hover:scale-95 transition-all"
-            >
-              <img src={partner.poster} className="min-w-[150px]" />
-            </div>
-          ))}
-        </div>
+
+      <div className="grid place-items-center grid-cols-2 md:grid-cols-3 gap-2 mt-4 py-7">
+        {Partner_Portals.map((partner,index) => (
+          <div
+            key={partner.id}
+            className="border-[1px] w-full cursor-pointer bg-gray-300 animate-pulse flex-1 border-gray-400 overflow-hidden m-[1px] hover:border-gray-600 hover:scale-95 transition-all"
+          >
+            <div className="min-h-24 min-w-40 grid place-items-center text-[18px] capitalize">partner-{index+1}</div>
+            {/* <img src={partner.poster} className="min-w-[150px]" /> */}
+          </div>
+        ))}
       </div>
     </div>
   );

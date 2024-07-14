@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { table } from "./data";
+import { table } from "../data";
 
 const TableComponent = () => {
   const highlightText = (text) => {
